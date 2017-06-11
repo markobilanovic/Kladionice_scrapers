@@ -30,7 +30,7 @@ var casper = require("casper").create({
 
 var fs = require('fs');
 var url = 'https://www.maxbet.rs/';
-var exportFilename = 'maxbet.csv';
+var exportFilename = 'csv/maxbet.csv';
 
 var home = [];
 var visitor = [];
@@ -171,7 +171,7 @@ casper.wait(3000, function() {
 });
 
 casper.waitForSelector("div.select-all-leagues.select-all-leagues-S", function() {
-	this.capture('Fudbal_clicked.png');
+	this.capture('img/Fudbal_clicked.png');
 	this.echo("Klik na 'Izaberi sve' filter.");
 	this.click('div.select-all-leagues.select-all-leagues-S');
 });
@@ -222,7 +222,7 @@ casper.then(function() {
 });
 */
 casper.then(function() {
-	this.capture('scrolled.png');
+	this.capture('img/scrolled.png');
 	this.echo("captured scroll");
 });
 
