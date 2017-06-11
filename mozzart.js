@@ -12,7 +12,7 @@ var casper = require("casper").create({
 
 var fs = require('fs');
 var url = 'https://www.mozzartbet.com/#1-0-1';
-var exportFilename = 'utakmice.csv';
+var exportFilename = 'mozzart.csv';
 
 var home = [];
 var visitor = [];
