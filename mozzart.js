@@ -6,13 +6,13 @@ var casper = require("casper").create({
     loadPlugins: false,
     userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4'
   },
-  clientScripts: ["vendor/jquery.min.js", "vendor/lodash.js"]
+  clientScripts: []
 });
 
 
 var fs = require('fs');
 var url = 'https://www.mozzartbet.com/#1-0-1';
-var exportFilename = 'mozzart.csv';
+var exportFilename = 'csv/mozzart.csv';
 
 var home = [];
 var visitor = [];
@@ -93,8 +93,8 @@ function forseTerminate(){
 function saveAndExit() {
   var csvData = '';
   for(var i = 0; i < home.length; i++){
-    csvData += home[i] + ", " + visitor[i] + ', ' + zeroTwo[i] + ', ' + threePlus[i] + "\n";
-    this.echo(home[i] + ' - ' + visitor[i] + ' : ' + zeroTwo[i] + ':' + threePlus[i]);
+    csvData += home[i] + "|" + visitor[i] + '|' + zeroTwo[i] + '|' + threePlus[i] + "\n";
+    this.echo(home[i] + ' - ' + visitor[i] + ' : ' + zeroTwo[i] + ' | ' + threePlus[i]);
   }
 
   fs.write(exportFilename, csvData, 'w');

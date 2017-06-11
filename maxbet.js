@@ -11,6 +11,9 @@ while
 	predhodni br div-ova sa utakmicama nije jednak predhodnom tom broju
 
 	
+	
+	COMMENT: pokusao sam sa scroll down da ucitam sve pa da scrapeujem.
+	Posto tako nece da ucita celu stranicu kliktacu redom na div-ove unutar fudbal dropdown liste i nakon svakog klika scrape-ujem top div
 */
 
 var casper = require("casper").create({
@@ -21,7 +24,7 @@ var casper = require("casper").create({
     loadPlugins: false,
     userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4'
   },
-  clientScripts: ["vendor/jquery.min.js", "vendor/lodash.js"]
+  clientScripts: []
 });
 
 
@@ -204,9 +207,15 @@ casper.then(function() {
 	this.echo("old = " + oldDivNumber);
 });
 
-casper.wait(10000, function () {
+casper.then(function () {
     this.page.scrollPosition = { top: this.page.scrollPosition["top"] + document.body.scrollHeight, left: 0 };
-})
+});
+
+
+casper.wait(5000, function() {
+	this.echo("Wait after scroll...");
+});
+
 /*
 casper.then(function() {
 	casper.scrollToBottom();
