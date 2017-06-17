@@ -18,7 +18,7 @@ var visitor = [];
 var zeroTwo = [];
 var threePlus = [];
 
-var currentLeague = 3;
+var currentLeague = 3;//preskacu se prva 2
 var leaguesCount = 0;
 
 
@@ -33,8 +33,6 @@ function getLeaguesCount() {
   return leagueDivs.length;
 }
 
-
-
 function getHome() {
   var tableElement = document.querySelectorAll('.cc-top-matches.box-shadow.pos-full-width');
   var homeDivs = tableElement[0].querySelectorAll('div.teams-overflow.ng-binding');
@@ -42,7 +40,7 @@ function getHome() {
   var vals;
   for(var i = 0; i < homeDivs.length; i++) {
     vals = homeDivs[i].innerText.split('-');
-    homeA.push(vals[0]);
+    homeA.push(vals[0].trim());
   }
   return homeA;
 }
@@ -54,7 +52,7 @@ function getVisitor() {
   var vals;
   for(var i = 0; i < visitorDivs.length; i++) {
     vals = visitorDivs[i].innerText.split('-');
-    visitorA.push(vals[1]);
+    visitorA.push(vals[1].trim());
   }
   return visitorA;
 }
@@ -118,8 +116,6 @@ var processPage = function() {
   this.click({ type: 'xpath', path : selector });
   casper.waitFor(function() { return true}, processPage, forseTerminate);
 };
-
-
 
 
 //----------------------CASPER-----------------
