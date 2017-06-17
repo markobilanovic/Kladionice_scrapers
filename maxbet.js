@@ -40,7 +40,7 @@ function getHome() {
   var vals;
   for(var i = 0; i < homeDivs.length; i++) {
     vals = homeDivs[i].innerText.split('-');
-    homeA.push(vals[0].trim());
+    homeA.push(vals[0].trim().toUpperCase());
   }
   return homeA;
 }
@@ -52,7 +52,7 @@ function getVisitor() {
   var vals;
   for(var i = 0; i < visitorDivs.length; i++) {
     vals = visitorDivs[i].innerText.split('-');
-    visitorA.push(vals[1].trim());
+    visitorA.push(vals[1].trim().toUpperCase());
   }
   return visitorA;
 }
