@@ -1,2 +1,2 @@
-img\
-csv\
+img/**
+csv/**
