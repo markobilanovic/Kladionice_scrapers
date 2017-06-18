@@ -1,3 +1,9 @@
+/*
+TODO:
+izmeniti da umesto da klikce ligu po ligu da ide "Izaberi sve",
+pa onda skupljam sve tabele
+*/
+
 var casper = require("casper").create({
   verbose: true,
   logLevel: 'error',     // debug, info, warning, error
