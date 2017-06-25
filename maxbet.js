@@ -1,9 +1,3 @@
-/*
-TODO:
-izmeniti da umesto da klikce ligu po ligu da ide "Izaberi sve",
-pa onda skupljam sve tabele
-*/
-
 var casper = require("casper").create({
   verbose: true,
   logLevel: 'error',     // debug, info, warning, error
@@ -45,7 +39,7 @@ function getHome() {
   var homeA = [];
   var vals;
   for(var i = 0; i < homeDivs.length; i++) {
-    vals = homeDivs[i].innerText.split('-');
+    vals = homeDivs[i].innerText.split(' - ');
     homeA.push(vals[0].trim().toUpperCase());
   }
   return homeA;
@@ -57,8 +51,8 @@ function getVisitor() {
   var visitorA = [];
   var vals;
   for(var i = 0; i < visitorDivs.length; i++) {
-    vals = visitorDivs[i].innerText.split('-');
-    visitorA.push(vals[1].trim().toUpperCase());
+    vals = visitorDivs[i].innerText.split(' - ');
+    visitorA.push(vals[vals.length - 1].trim().toUpperCase());
   }
   return visitorA;
 }
