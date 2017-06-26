@@ -19,3 +19,7 @@ https://online.kladioniceolimp.com/?nologin=1&_ga=2.213724624.512395247.14969417
 DONE:<br />
 https://www.mozzartbet.com/<br />
 https://www.maxbet.rs/bet/#/home/leaguesWithMatches<br />
+
+<br />
+Umesto levenstajna proveriti Longest common subsequence:<br />
+https://en.wikipedia.org/wiki/Longest_common_subsequence_problem<br />
