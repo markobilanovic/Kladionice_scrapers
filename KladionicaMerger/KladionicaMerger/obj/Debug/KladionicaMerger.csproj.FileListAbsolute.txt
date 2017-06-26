@@ -1,0 +1,12 @@
+D:\Marko\KladionicaMerger\KladionicaMerger\bin\Debug\KladionicaMerger.exe.config
+D:\Marko\KladionicaMerger\KladionicaMerger\obj\Debug\KladionicaMerger.csprojResolveAssemblyReference.cache
+D:\Marko\KladionicaMerger\KladionicaMerger\bin\Debug\KladionicaMerger.exe
+D:\Marko\KladionicaMerger\KladionicaMerger\bin\Debug\KladionicaMerger.pdb
+D:\Marko\KladionicaMerger\KladionicaMerger\obj\Debug\KladionicaMerger.exe
+D:\Marko\KladionicaMerger\KladionicaMerger\obj\Debug\KladionicaMerger.pdb
+C:\Users\bilan.DESKTOP-CF0A1GD\Desktop\Kladionice_scrapers\KladionicaMerger\KladionicaMerger\bin\Debug\KladionicaMerger.exe.config
+C:\Users\bilan.DESKTOP-CF0A1GD\Desktop\Kladionice_scrapers\KladionicaMerger\KladionicaMerger\bin\Debug\KladionicaMerger.exe
+C:\Users\bilan.DESKTOP-CF0A1GD\Desktop\Kladionice_scrapers\KladionicaMerger\KladionicaMerger\bin\Debug\KladionicaMerger.pdb
+C:\Users\bilan.DESKTOP-CF0A1GD\Desktop\Kladionice_scrapers\KladionicaMerger\KladionicaMerger\obj\Debug\KladionicaMerger.csprojResolveAssemblyReference.cache
+C:\Users\bilan.DESKTOP-CF0A1GD\Desktop\Kladionice_scrapers\KladionicaMerger\KladionicaMerger\obj\Debug\KladionicaMerger.exe
+C:\Users\bilan.DESKTOP-CF0A1GD\Desktop\Kladionice_scrapers\KladionicaMerger\KladionicaMerger\obj\Debug\KladionicaMerger.pdb
