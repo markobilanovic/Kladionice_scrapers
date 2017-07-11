@@ -94,40 +94,62 @@ namespace KladionicaMerger
 			return d[n, m];
 		}
 
-		public static double LevenshteinDistanceSoft(string s, string t)
+		public static double LevenshteinDistanceSoft(string str1, string str2)
 		{
 			double cenaZamene = 1;
-			int m = s.Length;
-			int n = t.Length;
-			double[,] d = new double[m + 1, n + 1];
-			for (int i = 0; i < m + 1; i++)
-				for (int j = 0; j < n + 1; j++)
+			int str1Len = str2.Length;
+			int str2Len = str1.Length;
+			
+			double[,] d = new double[str2Len + 1, str1Len + 1];
+			
+			for (int i = 0; i < str2Len + 1; i++)
+			{
+				for (int j = 0; j < str1Len + 1; j++)
+				{
 					d[i, j] = 0;
-			for (int i = 1; i <= m; i++)
+				}
+			}
+
+			for (int i = 1; i <= str2Len; i++)
 			{
 				d[i, 0] = i;
 			}
 
-			for (int j = 1; j < n + 1; j++)
+			for (int j = 1; j < str1Len + 1; j++)
 			{
 				d[0, j] = j;
 			}
 
-			for (int j = 1; j <= n; j++)
+			for (int j = 1; j <= str1Len; j++)
 			{
-				for (int i = 1; i <= m; i++)
+				for (int i = 1; i <= str2Len; i++)
 				{
-					if (s[i - 1] == '.')
+					if (str2[i - 1] == '.' && str1[j - 1] != '.')
 					{
 						cenaZamene = 0.5;
-						int k = j-1;
-						while(t[k] != ' ' || t[k] != '-')
+						int k = j - 1;
+						while (str1[k] != ' ' || str1[k] != '-' && k < str1Len)
 						{
-							j++;
+							Console.WriteLine("j++");
 						}
 					}
+					//else 
+					//if(str2[j -1] == '.' && str1[i - 1] != '.')
+					//{
+					//	cenaZamene = 0.5;
+					//	int k = j - 1;
+					//	while (k < str2Len)
+					//	{
+					//		if (str1[k] != ' ' || str1[k] != '-')
+					//		{
+					//			Console.WriteLine("i++");
+					//			k++;
+					//		}
+					//	}
+					//}
 
-					if (s[i - 1] == t[j - 1])
+
+					if (str1[i - 1] == str2[j - 1])
 					{
 						d[i, j] = d[i - 1, j - 1];
 					}
@@ -140,8 +162,8 @@ namespace KladionicaMerger
 				}
 			}
 
-			Console.WriteLine("LevenshteinDistance = {0}, Str1:{1} ; Str2:{2}", d[n, m], s, t);
-			return d[m, n];
+			Console.WriteLine("LevenshteinDistance = {0}, Str1:{1} ; Str2:{2}", d[str2Len, str1Len], str1, str2);
+			return d[str2Len, str1Len];
 		}
 
 	}
