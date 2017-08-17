@@ -1,0 +1,20 @@
+-------------------SUCCESS---------------------
+MOZZART: KILMARNOCK - CELTIC
+MAXBET: WISLA PLOCK - LEGIA
+MIN DISTANCE: 10
+
+ -------------------SUCCESS---------------------
+MOZZART: NAC BREDA - PSV
+MAXBET: DAC STREDA - ZILINA
+MIN DISTANCE: 9
+
+-------------------SUCCESS---------------------
+MOZZART: PARTIZAN - VIDEOTON
+MAXBET: PARTIZAN - NAPREDAK
+MIN DISTANCE: 8
+
+ -------------------SUCCESS---------------------
+MOZZART:DINAMO Z.       -       SKENDERBEU      1.9:1.75
+MAXBET :DINAMO Z.       -       SLAVEN  2.03:1.7
+MIN DISTANCE: 8
+
