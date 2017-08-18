@@ -11,11 +11,17 @@ namespace MatchesComparator
 		private string visitor;
 		private List<double> quotas;
 
+		public List<string> HomeNames = new List<string>();
+		public List<string> VisitorNames = new List<string>();
+
 		public Match(string home, string visitor)
 		{
 			this.home = home;
 			this.visitor = visitor;
 			quotas = new List<double>();
+
+			HomeNames.Add(home);
+			VisitorNames.Add(visitor);
 		}
 
 		public void AddQuotas(double zeroTwo, double threePlus)

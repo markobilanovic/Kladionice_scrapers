@@ -48,18 +48,29 @@ namespace MatchesComparator
 					}
 					else
 					{
-						
+						repo.AddMatch(kvp.Key, i);
 					}
 				}
-				
-				Console.WriteLine(string.Format("USPELE {0}", uspele));
-
-
-				//repo.AddMatch(line, i);
+				//Console.WriteLine(string.Format("USPELE {0}", uspele));
 			}
-			
 
-			Console.ReadKey();
+			StringBuilder sb = new StringBuilder();
+			foreach(KeyValuePair<int, Match> kvp in repo.Matches)
+			{
+				Match m = kvp.Value;
+				string line = "";
+				for(int i = 0; i < m.HomeNames.Count; i++)
+				{
+					line += string.Format("|{0} | {1} | {2} | {3}\t-", m.HomeNames[i], m.VisitorNames[i], m.Quotas[i*2], m.Quotas[i*2+1]);
+				}
+				sb.AppendLine(line);
+			}
+
+
+			System.IO.StreamWriter file = new System.IO.StreamWriter("hereIam.txt");
+			file.Write(sb.ToString());
+			file.Flush();
+			//Console.ReadKey();
 		}
 
 	}

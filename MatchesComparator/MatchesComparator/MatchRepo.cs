@@ -9,6 +9,14 @@ namespace MatchesComparator
 	{
 		private Dictionary<int,Match> matches = new Dictionary<int,Match>();
 
+		public Dictionary<int, Match> Matches
+		{
+			get
+			{
+				return matches;
+			}
+		}
+
 		public MatchRepo() { }
 
 		List<PossibleMatch> homeMatches = new List<PossibleMatch>(1);
@@ -39,14 +47,12 @@ namespace MatchesComparator
 			m.Id = dbCounter++;
 			if (double.TryParse(zeroTwo, out zeroTwoD) && double.TryParse(threePlus, out threePlusD))
 			{
-				m.AddQuotas(zeroTwoD, threePlusD, index);
+				if(zeroTwoD != 0 && threePlusD != 0)
+				{
+					m.AddQuotas(zeroTwoD, threePlusD, index);
+					matches.Add(m.Id, m);
+				}
 			}
-			else
-			{
-				m.AddQuotas(0, 0, index);
-			}
-
-			matches.Add(m.Id,m);
 		}
 
 
@@ -92,25 +98,24 @@ namespace MatchesComparator
 				}
 			}
 
-			if (possibleMatch != null)
+			if (possibleMatch == null)
+				return false;
+
+			possibleMatch.HomeNames.Add(home);
+			possibleMatch.VisitorNames.Add(visitor);
+			if (double.TryParse(zeroTwo, out zeroTwoD) && double.TryParse(threePlus, out threePlusD))
 			{
-				if (double.TryParse(zeroTwo, out zeroTwoD) && double.TryParse(threePlus, out threePlusD))
-				{
-					possibleMatch.AddQuotas(zeroTwoD, threePlusD);
-					Console.WriteLine("-------------------SUCCESS---------------------");
-					Console.WriteLine(string.Format("MOZZART:{0}\t-\t{1}\t{2}:{3}", possibleMatch.Home, possibleMatch.Visitor, possibleMatch.Quotas[0], possibleMatch.Quotas[1]));
-					Console.WriteLine(string.Format("MAXBET :{0}\t-\t{1}\t{2}:{3}", home, visitor, possibleMatch.Quotas[2], possibleMatch.Quotas[3]));
-				}
-				else
-				{
-					possibleMatch.AddQuotas(0, 0);
-				}
-				//Console.ReadKey();
-				return true;
+				possibleMatch.AddQuotas(zeroTwoD, threePlusD);
+				//Console.WriteLine("-------------------SUCCESS---------------------");
+				//Console.WriteLine(string.Format("MOZZART:{0}\t-\t{1}\t{2}:{3}", possibleMatch.Home, possibleMatch.Visitor, possibleMatch.Quotas[0], possibleMatch.Quotas[1]));
+				//Console.WriteLine(string.Format("MAXBET :{0}\t-\t{1}\t{2}:{3}", home, visitor, possibleMatch.Quotas[2], possibleMatch.Quotas[3]));
+			}
+			else
+			{
+				possibleMatch.AddQuotas(0, 0);
 			}
 
-			//Console.ReadKey();
-			return false;
+			return true;
 		}
 
 	}
