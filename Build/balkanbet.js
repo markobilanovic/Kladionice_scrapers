@@ -1,0 +1,1 @@
+//#kvote566 > td:nth-child(1) > table:nth-child(6) > tbody:nth-child(2) > tr:nth-child(2) > td:nth-child(12)
