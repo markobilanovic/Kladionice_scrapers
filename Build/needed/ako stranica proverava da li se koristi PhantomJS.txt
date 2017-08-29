@@ -1,0 +1,6 @@
+casper.on("page.initialized", function(page) {
+    page.evaluate(function() {
+        delete window.callPhantom;
+        delete window._phantom;
+    });
+});

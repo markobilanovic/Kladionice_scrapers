@@ -1,12 +1,27 @@
-﻿var casper = require("casper").create({
+var casper = require("casper").create({
   verbose: true,
   logLevel: 'debug',     // debug, info, warning, error
   pageSettings: {
     loadImages: false,
     loadPlugins: false,
+	//userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1588.0 Safari/537.36'
     userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4'
   },
-  clientScripts: ["vendor/jquery.min.js", "vendor/lodash.js"]
+  clientScripts: ["vendor/main.js"]
+  /* clientScripts: ["vendor/jquery.min.js", "vendor/lodash.js", "vendor/jquery-migrate-1.4.1.js", 
+					"vendor/analytics.js", "vendor/iframeResizer.js",
+					"vendor/main.js", "vendor/require.js",
+					"vendor/vendor.js", "vendor/recaptcha.js"]
+					
+	  clientScripts: [	"vendor/jquery-3.1.0.min.js", 
+					"vendor/vendor.js", 
+					"vendor/jquery-migrate-1.4.1.min.js", 
+					"vendor/jquery.signalR-2.2.1.min.js",
+					"vendor/main.js",
+					"vendor/require.js"
+				]
+	*/
+	//clientScripts: ["vendor/jquery.min.js", "vendor/lodash.js"]
 });
 
 var fs = require('fs');
@@ -121,18 +136,72 @@ var processPage = function() {
 //----------------------CASPER-----------------
 
 casper.start(url, function() {
-  this.on('remote.message', function(msg) {
+ /* this.on('remote.message', function(msg) {
     this.echo('remote message caught: ' + msg);
   });
 
   this.on('page.error', function(msg, backtrace) {
     this.echo("Error: " + msg, "ERROR");
-  });
+  });*/
 });
 
-casper.wait(5000, function() {
+casper.on("remote.message", function(msg) {
+    this.echo("Console: " + msg);
+});
+
+// http://docs.casperjs.org/en/latest/events-filters.html#page-error
+casper.on("page.error", function(msg, trace) {
+    var msgStack = ['ERROR: ' + msg];
+  if (trace && trace.length) {
+    msgStack.push('TRACE:');
+    trace.forEach(function(t) {
+      msgStack.push(' -> ' + t.file + ': ' + t.line + (t.function ? ' (in function "' + t.function +'")' : ''));
+    });
+  }
+
+  console.error(msgStack.join('\n'));
+    // maybe make it a little fancier with the code from the PhantomJS equivalent
+});
+
+// http://docs.casperjs.org/en/latest/events-filters.html#resource-error
+casper.on("resource.error", function(resourceError) {
+    this.echo("ResourceError: " + JSON.stringify(resourceError, undefined, 4));
+});
+
+
+/*
+casper.on('resource.received', function(resource) {
+    casper.echo(resource.url);
+	
+	if(resource.url == "https://www.maxbet.rs/ibet/main.js?v=2.95.1" ||
+		resource.url == "https://www.maxbet.rs/bet/main.js?v=2.95.1")
+	{
+		
+	}
+	
+});*/
+
+casper.on('page.resource.requested', function(requestData, networkRequest) {
+    casper.echo("URL: " + requestData.url);
+	casper.echo("Headers: " + requestData.headers);
+	casper.echo("PostData: " + requestData.postData);
+	if (requestData.url.indexOf('https://www.maxbet.rs/ibet/main.js?v=2.95.1') === 0 ||
+		requestData.url.indexOf('https://www.maxbet.rs/bet/main.js?v=2.95.1') === 0)
+	{
+		casper.echo("TEST: " + requestData);
+        networkRequest.changeUrl("vendor/main.js");
+    }
+});
+
+/*
+casper.then(function () {
+	this.page.injectJs('vendor/jquery.signalR-2.2.1.min.js');
+});
+*/
+
+casper.wait(30000, function() {
   this.echo("Loading page...");
-	this.capture("test.png");
+  this.capture('test.png');
 });
 
 casper.then(function() {
@@ -162,4 +231,17 @@ casper.then(function(){
 	this.exit();
 });
 
+// http://docs.casperjs.org/en/latest/events-filters.html#page-initialized
+/*
+casper.on("page.initialized", function(page) {
+    // CasperJS doesn't provide `onResourceTimeout`, so it must be set through 
+    // the PhantomJS means. This is only possible when the page is initialized
+    page.onResourceTimeout = function(request) {
+        console.log('Response Timeout (#' + request.id + '): ' + JSON.stringify(request));
+    };
+});*/
+
+
 casper.run();
+
+

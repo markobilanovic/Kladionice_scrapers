@@ -1,3 +1,19 @@
 -------------------SUCCESS---------------------
 MOZZART:LILLE   -       CAEN    1.9:1.8
 MAXBET :LOTTE   -       CZ JENA 1.95:1.85
+
+MOZZART:WESTERN PRIDE   -       NORTHERN FURY   5.6:1.08
+MAXBET :HOLSTEIN KIEL   -       GREUTHER FURTH  1.62:2.15
+
+////////////////////////////////////////////////////////////////
+|SWANSEA | MAN.UTD | 1.95 | 1.85	-|STRANRAER | AYR UTD. | 2.19 | 1.6	-|SWANSEA | MAN.UTD. | 1.96 | 1.75	-
+*problem:
+obradjivao je STRANRAER - AYR UTD.
+i najbolje mu je upalo SWANSEA - MAN.UTD
+zatim je obradjivao SWANSEA - MAN.UTD.
+i onda je i njemu najbolje SWANSEA - MAN.UTD.
+**predlog:
+cuvati one koje su pogodili isti ID, i onda gledati koji je bolji
+bolji sacuvati, ostale odbaciti (dodaju se na kraj baze)
+////////////////////////////////////////////////////////////////
+

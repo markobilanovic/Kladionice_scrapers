@@ -1,2 +1,2 @@
-casperjs mozzart.js
+REM casperjs mozzart.js
 casperjs maxbet.js

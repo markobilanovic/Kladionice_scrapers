@@ -1,0 +1,997 @@
+G0,mozzart,ISRAEL,MACEDONIA,1.62,2.15
+*****************************************
+G1,mozzart,SLIGO,FALKIRK,2.03,1.7
+*****************************************
+G2,mozzart,GREMIO,SPORT RECIFE,1.69,2.05
+*****************************************
+G3,mozzart,SENEGAL,BURKINA FASO,1.41,2.7
+*****************************************
+G4,mozzart,MONTREAL,CHICAGO,2.41,1.5
+*****************************************
+G5,mozzart,DALLAS,NEW YORK,2.19,1.6
+*****************************************
+G6,mozzart,LOS ANGELES,COLORADO,2.11,1.65
+*****************************************
+G7,mozzart,GIFU,EHIME,1.8,1.9
+*****************************************
+G8,mozzart,CHROBRY GLOGOW,LEGNICA,1.69,2.05
+*****************************************
+G9,mozzart,FREMAD AMAGER,ESBJERG,2.11,1.65
+*****************************************
+G10,mozzart,NYKOBING,BRABRAND,2.19,1.6
+*****************************************
+G11,mozzart,THISTED,HB KOGE,1.9,1.8
+*****************************************
+G12,mozzart,VOLENDAM,CAMBUUR,2.19,1.6
+*****************************************
+G13,mozzart,STROMMEN,ELVERUM,2.19,1.6
+*****************************************
+G14,mozzart,FLORO,TROMSDALEN,2.29,1.55
+*****************************************
+G15,mozzart,JERV,START,2.19,1.6
+*****************************************
+G16,mozzart,SYRIANSKA,TRELLEBORG,2.41,1.5
+*****************************************
+G17,mozzart,PORTSMOUTH,ROTHERHAM,1.9,1.8
+*****************************************
+G18,mozzart,TNS,LIVINGSTON,2.11,1.65
+*****************************************
+G19,mozzart,TUBIZE,ST.GILLOISE,2.19,1.6
+*****************************************
+G20,mozzart,HONKA,KPV,2.03,1.7
+*****************************************
+G21,mozzart,JARO,GRIFK,2.41,1.5
+*****************************************
+G22,mozzart,OPS,GNISTAN,2.11,1.65
+*****************************************
+G23,mozzart,OLIVEIRENSE,SP.COVILHA,1.76,1.95
+*****************************************
+G24,mozzart,EMPOLI,BARI,1.6,2.2
+*****************************************
+G25,mozzart,RANHEIM,KONGSVINGER,2.41,1.5
+*****************************************
+G26,mozzart,FREDRIKSTAD,ASANE,2.03,1.7
+*****************************************
+G27,mozzart,ULL KISA,MJONDALEN,2.41,1.5
+*****************************************
+G28,mozzart,GUIMARAES II,REAL QUELUZ,1.85,1.85
+*****************************************
+G29,mozzart,BOAVISTA,BRAGA,1.55,2.3
+*****************************************
+G30,mozzart,ASCOLI,PRO VERCELLI,1.55,2.3
+*****************************************
+G31,mozzart,CESENA,VENEZIA,1.6,2.2
+*****************************************
+G32,mozzart,CREMONESE,AVELLINO,1.69,2.05
+*****************************************
+G33,mozzart,FOGGIA,VIRTUS E.,1.72,2
+*****************************************
+G34,mozzart,FROSINONE,CITTADELLA,1.76,1.95
+*****************************************
+G35,mozzart,NOVARA,PARMA,1.53,2.35
+*****************************************
+G36,mozzart,PERUGIA,PESCARA,2.41,1.5
+*****************************************
+G37,mozzart,SPEZIA,CARPI,1.47,2.5
+*****************************************
+G38,mozzart,LATVIA,SWITZERLAND,2.41,1.5
+*****************************************
+G39,mozzart,LEVANGER,ARENDAL,2.11,1.65
+*****************************************
+G40,mozzart,ATVIDABERG,VARNAMO,2.41,1.5
+*****************************************
+G41,mozzart,GAIS,ORGRYTE,1.8,1.9
+*****************************************
+G42,mozzart,NORRBY,VARBERGS BOIS FC,2.41,1.5
+*****************************************
+G43,mozzart,SALERNITANA,TERNANA,1.69,2.05
+*****************************************
+G44,mozzart,BENFICA,CSKA,1.6,2.2
+*****************************************
+G45,mozzart,MAN.UTD.,BASEL,2.29,1.55
+*****************************************
+G46,mozzart,BAYERN,ANDERLECHT,3.55,1.25
+G46,pinnbet,BAYERN M.,ANDERLECHT,3.8,1.25
+*****************************************
+G47,mozzart,CELTIC,PSG,2.7,1.4
+G47,pinnbet,CELTIC,PSG,2.45,1.55
+*****************************************
+G48,mozzart,ROMA,ATL.MADRID,1.6,2.2
+G48,pinnbet,ROMA,ATL. MADRID,1.6,2.35
+*****************************************
+G49,mozzart,CHELSEA,QARABAG,2.7,1.4
+*****************************************
+G50,mozzart,BARCELONA,JUVENTUS,1.96,1.75
+*****************************************
+G51,mozzart,OLYMPIAKOS,SPORTING,1.47,2.5
+*****************************************
+G52,mozzart,LIVERPOOL,SEVILLA,2.41,1.5
+G52,pinnbet,LIVERPOOL,SEVILLA,2.35,1.6
+*****************************************
+G53,mozzart,MARIBOR,SPARTAK MOSCOW,1.62,2.15
+*****************************************
+G54,mozzart,FEYENOORD,MAN.CITY,2.41,1.5
+*****************************************
+G55,mozzart,SHAKHTAR,NAPOLI,2.03,1.7
+*****************************************
+G56,mozzart,PORTO,BESIKTAS,1.76,1.95
+G56,pinnbet,PORTO,BESIKTAS,1.8,2.05
+*****************************************
+G57,mozzart,RB LEIPZIG,MONACO,2.11,1.65
+G57,pinnbet,RB LEIPZIG,MONACO,2.05,1.8
+*****************************************
+G58,mozzart,REAL MADRID,APOEL NICOSIA,4.7,1.15
+*****************************************
+G59,mozzart,TOTTENHAM,DORTMUND,2.29,1.55
+G59,pinnbet,TOTTENHAM,DORTMUND,2.15,1.7
+*****************************************
+G60,mozzart,SLAVIA PRAHA,MACCABI T.A.,1.6,2.2
+G60,pinnbet,SLAVIA PRAGUE,MACCABI TEL AVIV,1.6,2.35
+*****************************************
+G61,mozzart,VILLAREAL,ASTANA,2.19,1.6
+*****************************************
+G62,mozzart,DYNAMO KYIV,SKENDERBEU,2.41,1.5
+G62,pinnbet,DYNAMO KIEV,SKENDERBEU,2.6,1.5
+*****************************************
+G63,mozzart,YOUNG BOYS,PARTIZAN,1.9,1.8
+G63,pinnbet,YOUNG BOYS,PARTIZAN,1.9,1.9
+*****************************************
+G64,mozzart,BUYUKSEHIR,LUDOGORETS,1.69,2.05
+*****************************************
+G65,mozzart,HOFFENHEIM,BRAGA,2.03,1.7
+G65,pinnbet,HOFFENHEIM,BRAGA,2.1,1.75
+*****************************************
+G66,mozzart,AUSTRIA VIENNA,MILAN,1.96,1.75
+G66,pinnbet,AUSTRIA VIENNA,MILAN,2.05,1.8
+*****************************************
+G67,mozzart,RIJEKA,AEK,1.47,2.5
+*****************************************
+G68,mozzart,APOLLON LIM.,OLYMPIQUE LYON,1.8,1.9
+*****************************************
+G69,mozzart,ATALANTA,EVERTON,1.69,2.05
+*****************************************
+G70,mozzart,COPENHAGEN,LOK.MOSCOW,1.55,2.3
+*****************************************
+G71,mozzart,ZLIN,SHERIFF TIRASPOL,1.6,2.2
+G71,pinnbet,ZLIN,SHERIFF TIRASPOL,1.6,2.35
+*****************************************
+G72,mozzart,FCSB,PLZEN,1.72,2
+*****************************************
+G73,mozzart,HAPOEL B.S.,LUGANO,1.69,2.05
+*****************************************
+G74,mozzart,ARSENAL,KOLN,2.11,1.65
+G74,pinnbet,ARSENAL,KOLN,2.25,1.65
+*****************************************
+G75,mozzart,CRVENA ZVEZDA,BATE BORISOV,1.6,2.2
+G75,pinnbet,CRVENA ZVEZDA,BATE BORISOV,1.6,2.35
+*****************************************
+G76,mozzart,GUIMARAES,SALZBURG,1.76,1.95
+G76,pinnbet,GUIMARAES,SALZBURG,1.8,2
+*****************************************
+G77,mozzart,OLYMPIQUE MARSEILLE,KONYASPOR,1.96,1.75
+*****************************************
+G78,mozzart,ZORYA,OSTERSUNDS,1.69,2.05
+*****************************************
+G79,mozzart,HERTHA,ATH.BILBAO,1.69,2.05
+*****************************************
+G80,mozzart,VITESSE,LAZIO,1.85,1.85
+G80,pinnbet,VITESSE,LAZIO,1.9,1.9
+*****************************************
+G81,mozzart,ZULTE-WAREGEM,NICE,1.85,1.85
+*****************************************
+G82,mozzart,SOCIEDAD,ROSENBORG,2.29,1.55
+*****************************************
+G83,mozzart,VARDAR,ZENIT,1.9,1.8
+*****************************************
+G84,mozzart,ORENBURG,KRYLYA SOVETOV,1.47,2.5
+*****************************************
+G85,mozzart,THROTTUR R.,LEIKNIR F.,2.55,1.45
+*****************************************
+G86,mozzart,DUMBARTON,CONNAH'S QN,2.41,1.5
+*****************************************
+G87,mozzart,ROSKILDE,VENDSYSSEL,2.03,1.7
+*****************************************
+G88,mozzart,BLACKPOOL,WIMBLEDON,1.69,2.05
+*****************************************
+G89,mozzart,BURY,SCUNTHORPE,1.85,1.85
+*****************************************
+G90,mozzart,DONCASTER,PETERBOROUGH,2.03,1.7
+*****************************************
+G91,mozzart,GILLINGHAM,SHREWSBURY,1.8,1.9
+*****************************************
+G92,mozzart,MILTON KEYNES DONS,OXFORD,1.8,1.9
+*****************************************
+G93,mozzart,OLDHAM,CHARLTON,1.62,2.15
+*****************************************
+G94,mozzart,SOUTHEND,ROCHDALE,1.9,1.8
+*****************************************
+G95,mozzart,WALSALL,PLYMOUTH,1.76,1.95
+*****************************************
+G96,mozzart,CAMBRIDGE,COLCHESTER,1.9,1.8
+*****************************************
+G97,mozzart,PORT VALE,NOTTS COUNTY,2.03,1.7
+*****************************************
+G98,mozzart,EXETER,NEWPORT,1.9,1.8
+*****************************************
+G99,mozzart,CARLISLE,MANSFIELD,1.96,1.75
+*****************************************
+G100,mozzart,GRIMSBY,CREWE,1.85,1.85
+*****************************************
+G101,mozzart,WYCOMBE,FOREST GREEN,1.96,1.75
+*****************************************
+G102,mozzart,SWINDON,BARNET,1.96,1.75
+*****************************************
+G103,mozzart,CHELTENHAM,STEVENAGE,1.9,1.8
+*****************************************
+G104,mozzart,LINCOLN CITY,LUTON,2.03,1.7
+*****************************************
+G105,mozzart,CHESTERFIELD,COVENTRY,1.9,1.8
+*****************************************
+G106,mozzart,MORECAMBE,ACCRINGTON,1.96,1.75
+*****************************************
+G107,mozzart,CRAWLEY TOWN,YEOVIL,1.96,1.75
+*****************************************
+G108,mozzart,SUTTON UNITED,MAIDENHEAD,1.96,1.75
+*****************************************
+G109,mozzart,MACCLESFIELD,WOKING,1.9,1.8
+*****************************************
+G110,mozzart,LEYTON,GUISELEY,2.03,1.7
+*****************************************
+G111,mozzart,HARTLEPOOL,MAIDSTONE UTD,1.8,1.9
+*****************************************
+G112,mozzart,HALIFAX,FYLDE,2.03,1.7
+*****************************************
+G113,mozzart,EBBSFLEET,EASTLEIGH,1.85,1.85
+*****************************************
+G114,mozzart,WREXHAM,BROMLEY,1.8,1.9
+*****************************************
+G115,mozzart,DAG & RED,GATESHEAD,1.96,1.75
+*****************************************
+G116,mozzart,BARROW,BOREHAM WOOD,1.8,1.9
+*****************************************
+G117,mozzart,TORQUAY,CHESTER,2.03,1.7
+*****************************************
+G118,mozzart,ALDERSHOT,SOLIHULL,2.19,1.6
+*****************************************
+G119,mozzart,WHITEHAWK,POOLE,1.9,1.8
+*****************************************
+G120,mozzart,CHELMSFORD CITY,BOGNOR REGIS TOWN,2.41,1.5
+*****************************************
+G121,mozzart,WESTON,HAVANT&WAT.,2.41,1.5
+*****************************************
+G122,mozzart,BATH CITY,WELLING UTD.,2.29,1.55
+*****************************************
+G123,mozzart,THURROCK,WEALDSTONE,2.41,1.5
+*****************************************
+G124,mozzart,EASTBOURNE,CHIPPENHAM,2.41,1.5
+*****************************************
+G125,mozzart,HAMEL,TRURO CITY,2.41,1.5
+*****************************************
+G126,mozzart,HAMPTON&R.,DARTFORD,2.03,1.7
+*****************************************
+G127,mozzart,ST.ALBANS,GLOUCESTER CITY,2.19,1.6
+*****************************************
+G128,mozzart,OXFORD CITY,BRAINTREE,2.41,1.5
+*****************************************
+G129,mozzart,HUNGERFORD,CONCORD,2.11,1.65
+*****************************************
+G130,mozzart,STOCKPORT,BRADFORD P.A.,2.11,1.65
+*****************************************
+G131,mozzart,TELFORD,B.SPARTANS,1.96,1.75
+*****************************************
+G132,mozzart,CHORLEY,YORK,1.96,1.75
+*****************************************
+G133,mozzart,NUNEATON,ALFRETON,2.19,1.6
+*****************************************
+G134,mozzart,SPENNYMOOR,GAINSBOROUGH,2.29,1.55
+*****************************************
+G135,mozzart,KIDDERMINSTER,BOSTON UNITED,2.19,1.6
+*****************************************
+G136,mozzart,FERRIBY,TAMWORTH,2.19,1.6
+*****************************************
+G137,mozzart,MANCHESTER,LEAMINGTON,2.29,1.55
+*****************************************
+G138,mozzart,CURZON,SALFORD CITY,2.11,1.65
+*****************************************
+G139,mozzart,HARROGATE T.,BRACKLEY TOWN,2.03,1.7
+*****************************************
+G140,mozzart,PORTIMONENSE,CHAVES,1.6,2.2
+*****************************************
+G141,mozzart,SPARTAK M.II,ENERGIYA V.,1.6,2.2
+*****************************************
+G142,mozzart,TAMBOV,OLIMPIETS,1.69,2.05
+*****************************************
+G143,mozzart,CRUSADERS,MOTHERWELL M20,2.25,1.5
+*****************************************
+G144,mozzart,PETERHEAD,ANAN ATHLETIC,2.41,1.5
+*****************************************
+G145,mozzart,DUNDEE UTD.,ALLOA,2.9,1.35
+*****************************************
+G146,mozzart,BERWICK,QUEEN OF S.,2.55,1.45
+*****************************************
+G147,mozzart,ST.MIRREN,HEARTS M20,2.7,1.4
+*****************************************
+G148,mozzart,HAMILTON M20,COVE,2.37,1.45
+*****************************************
+G149,mozzart,ABERDEEN M20,INVERNESS,2.41,1.5
+*****************************************
+G150,mozzart,BUCKIE,DUNFERMLINE,2.9,1.35
+*****************************************
+G151,mozzart,RAITH,ROSS COUNTY M20,2.41,1.5
+*****************************************
+G152,mozzart,ELGIN,BRAY,2.41,1.5
+*****************************************
+G153,mozzart,DEGERFORS,BROMMAPOJKARNA,2.29,1.55
+*****************************************
+G154,mozzart,WESTERLO,LEUVEN,2.11,1.65
+*****************************************
+G155,mozzart,BALTIKA,KUBAN,1.55,2.3
+*****************************************
+G156,mozzart,ZENIT II,FAKEL,1.6,2.2
+*****************************************
+G157,mozzart,BRESCIA,PALERMO,1.69,2.05
+*****************************************
+G158,mozzart,GABON,IVORY COAST,1.41,2.7
+G158,pinnbet,GABON,IVORY COAST,1.4,2.7
+*****************************************
+G159,mozzart,FINLAND,ICELAND,1.53,2.35
+*****************************************
+G160,mozzart,GEORGIA,R.IRELAND,1.55,2.3
+G160,pinnbet,GEORGIA,IRELAND,1.6,2.3
+*****************************************
+G161,mozzart,ALBANIA,LIECHTENSTEIN,2.7,1.4
+G161,pinnbet,ALBANIA,LIECHTENSTEIN,2.9,1.35
+*****************************************
+G162,mozzart,SERBIA,MOLDOVA,2.29,1.55
+*****************************************
+G163,mozzart,BYTOVIA BYTOW,POGON SIEDLCE,1.76,1.95
+*****************************************
+G164,mozzart,FALKENBERG,GEFLE,2.19,1.6
+*****************************************
+G165,mozzart,TRANMERE,DOVER ATHLETIC,1.8,1.9
+*****************************************
+G166,mozzart,STOMIL,LECCZNA BOGDANKA,1.85,1.85
+*****************************************
+G167,mozzart,RIO AVE,PIEDADE,1.76,1.95
+*****************************************
+G168,mozzart,RKC WAALWIJK,DE GRAAFSCHAP,2.41,1.5
+*****************************************
+G169,mozzart,CERCLE BRUGGE,LIERSE,2.19,1.6
+*****************************************
+G170,mozzart,WALES,AUSTRIA,1.55,2.3
+*****************************************
+G171,mozzart,UKRAINE,TURKEY,1.55,2.3
+G171,pinnbet,UKRAINE,TURKEY,1.6,2.3
+*****************************************
+G172,mozzart,SPAIN,ITALY,1.55,2.3
+*****************************************
+G173,mozzart,CROATIA,KOSOVO,4.7,1.15
+G173,pinnbet,GROTTA,KOPAVOGUR,2.2,1.6
+*****************************************
+G174,mozzart,CYPRUS,B&H,1.72,2
+*****************************************
+G175,mozzart,GREECE,ESTONIA,1.53,2.35
+*****************************************
+G176,mozzart,HAUKAR,LEIKNIR,2.19,1.6
+G176,pinnbet,HAMBURGER,RB LEIPZIG,1.9,1.9
+*****************************************
+G177,mozzart,O'HIGGINS,SANTIAGO W.,1.8,1.9
+*****************************************
+G178,mozzart,VENEZUELA,COLOMBIA,1.96,1.75
+G178,pinnbet,VENEZUELA,COLOMBIA,1.95,1.85
+*****************************************
+G179,mozzart,CHILE,PARAGUAY,1.96,1.75
+*****************************************
+G180,mozzart,URUGUAY,ARGENTINA,1.9,1.8
+G180,pinnbet,URUGUAY,ARGENTINA,1.9,1.9
+*****************************************
+G181,mozzart,BRAZIL,ECUADOR,2.19,1.6
+*****************************************
+G182,mozzart,PUMAS UNAM,CELAYA,1.8,1.9
+*****************************************
+G183,mozzart,PERU,BOLIVIA,2.03,1.7
+G183,pinnbet,PERU,BOLIVIA,2,1.8
+*****************************************
+G184,mozzart,NEW ZEALAND,SOLOMON I.,2.9,1.35
+G184,pinnbet,NEW ZEALAND,SOLOMON ISLANDS,2.7,1.4
+*****************************************
+G185,mozzart,KAZAKHSTAN M21,MONTENEGRO M21,1.69,2.05
+*****************************************
+G186,mozzart,SLOVENIA M21,LUXEMBOURG M21,2.29,1.55
+*****************************************
+G187,mozzart,LATVIA M21,UKRAINE M21,1.72,2
+G187,pinnbet,LATVIA U21,UKRAINE U21,1.75,2
+*****************************************
+G188,mozzart,ESTONIA M21,SLOVAKIA M21,1.72,2
+G188,pinnbet,ESTONIA U21,SLOVAKIA U21,1.85,1.9
+*****************************************
+G189,mozzart,B&H M21,ROMANIA M21,1.69,2.05
+G189,pinnbet,B&H U21,SLOVAKIA U21,1.85,1.9
+*****************************************
+G190,mozzart,HAKA,E.I.F.,2.11,1.65
+*****************************************
+G191,mozzart,TPS,AC OULU,1.9,1.8
+*****************************************
+G192,mozzart,GHANA,CONGO,1.6,2.2
+G192,pinnbet,GHANA,CONGO,1.5,2.5
+*****************************************
+G193,mozzart,CYPRUS M21,MALTA M21,1.72,2
+G193,pinnbet,CYPRUS U21,MALTA U21,1.9,1.85
+*****************************************
+G194,mozzart,NETHERLANDS M21,ENGLAND M21,1.8,1.9
+G194,pinnbet,F. ISLANDS U21,DENMARK U21,2.7,1.4
+*****************************************
+G195,mozzart,GEORGIA M21,POLAND M21,1.8,1.9
+G195,pinnbet,SERBIA U21,ENGLAND U21,2,1.75
+*****************************************
+G196,mozzart,SERBIA M21,GIBRALTAR M21,4.7,1.15
+*****************************************
+G197,mozzart,BELARUS M21,GREECE M21,1.47,2.5
+*****************************************
+G198,mozzart,NIGERIA,CAMEROON,1.6,2.2
+*****************************************
+G199,mozzart,KAZAKHSTAN,MONTENEGRO,1.69,2.05
+*****************************************
+G200,mozzart,SWITZERLAND M21,WALES M21,1.8,1.9
+G200,pinnbet,SWITZERLAND U21,MALTA U21,1.9,1.85
+*****************************************
+G201,mozzart,KOSOVO M21,NORWAY M21,2.41,1.5
+G201,pinnbet,TZV KOSOVO U21,NORWAY U21,2.4,1.5
+*****************************************
+G202,mozzart,MARITIMO,ESTORIL,1.6,2.2
+*****************************************
+G203,mozzart,OSTERS,IK FREJ,2.41,1.5
+*****************************************
+G204,mozzart,BOULOGNE,BEZIERS,1.62,2.15
+*****************************************
+G205,mozzart,CHOLET,MARSEILLE C.,1.76,1.95
+*****************************************
+G206,mozzart,CONCARNEAU,LYON DUCHERE,1.53,2.35
+*****************************************
+G207,mozzart,CRETEIL,GRENOBLE,1.55,2.3
+*****************************************
+G208,mozzart,PAU,AVRANCHES,1.55,2.3
+*****************************************
+G209,mozzart,RODEZ,CHAMBLY,1.55,2.3
+*****************************************
+G210,mozzart,ENTENTE,HERBIERS,1.6,2.2
+*****************************************
+G211,mozzart,DORDRECHT,EMMEN,2.29,1.55
+*****************************************
+G212,mozzart,HELMOND,GO AHEAD,2.29,1.55
+*****************************************
+G213,mozzart,PSV II,AJAX II,2.55,1.45
+*****************************************
+G214,mozzart,UTRECHT II,AZ ALKMAR II,2.55,1.45
+*****************************************
+G215,mozzart,MVV,DEN BOSCH,2.55,1.45
+*****************************************
+G216,mozzart,NEC,EINDHOVEN,2.9,1.35
+*****************************************
+G217,mozzart,FORTUNA S.,ALMERE,2.7,1.4
+*****************************************
+G218,mozzart,TELSTAR,OSS,2.55,1.45
+*****************************************
+G219,mozzart,ROESELARE,BEERSCHOT WILRIJK,2.15,1.55
+*****************************************
+G220,mozzart,CAPE VERDE,S.AFRICA,1.47,2.5
+G220,pinnbet,CAPE VERDE,SOUTH AFRICA,1.5,2.5
+*****************************************
+G221,mozzart,LITHUANIA,SCOTLAND,1.55,2.3
+G221,pinnbet,LITHUANIA,SCOTLAND,1.6,2.3
+*****************************************
+G222,mozzart,SAN MARINO,N.IRELAND,2.7,1.4
+*****************************************
+G223,mozzart,DENMARK,POLAND,1.8,1.9
+*****************************************
+G224,mozzart,CZECH R.,GERMANY,1.96,1.75
+G224,pinnbet,CZECH REPUBLIC,GERMANY,2,1.8
+*****************************************
+G225,mozzart,ROMANIA,ARMENIA,1.8,1.9
+G225,pinnbet,ROMANIA,ARMENIA,1.9,1.9
+*****************************************
+G226,mozzart,MALTA,ENGLAND,3.2,1.3
+*****************************************
+G227,mozzart,SLOVAKIA,SLOVENIA,1.55,2.3
+*****************************************
+G228,mozzart,NORWAY,AZERBAIJAN,1.55,2.3
+*****************************************
+G229,mozzart,BOHEMIANS D.,GALWAY,1.72,2
+*****************************************
+G230,mozzart,DUNDALK,ST.PATRICK'S,2.29,1.55
+*****************************************
+G231,mozzart,SHAMROCK,CORK CITY,1.69,2.05
+*****************************************
+G232,mozzart,LIMERICK,FINN HARPS,1.85,1.85
+*****************************************
+G233,mozzart,ATHLONE,COBH RAMBLERS,2.7,1.4
+*****************************************
+G234,mozzart,WATERFORD,SHELBOURNE,1.9,1.8
+*****************************************
+G235,mozzart,UCD,WEXFORD,2.11,1.65
+*****************************************
+G236,mozzart,CABINTEELY,LONGFORD,1.69,2.05
+*****************************************
+G237,mozzart,STRANRAER,PARTICK M20,2.25,1.5
+G237,pinnbet,STRANRAER,PARTICK U20,2.35,1.55
+*****************************************
+G238,mozzart,MOROCCO,MALI,1.47,2.5
+*****************************************
+G239,mozzart,TUNISIA,DR CONGO,1.47,2.5
+G239,pinnbet,TUNISIA,D.R. CONGO,1.6,2.2
+*****************************************
+G240,mozzart,USA,COSTA RICA,1.62,2.15
+G240,pinnbet,USA,COSTA RICA,1.6,2.3
+*****************************************
+G241,mozzart,TRINIDAD,HONDURAS,1.6,2.2
+*****************************************
+G242,mozzart,MEXICO,PANAMA,1.8,1.9
+G242,pinnbet,MEXICO,PANAMA,1.8,1.95
+*****************************************
+G243,mozzart,YAMAGATA,OKAYAMA,1.6,2.2
+*****************************************
+G244,mozzart,KAMATAMARE,FUKUOKA,1.72,2
+*****************************************
+G245,mozzart,KYOTO PURPLE SANGA,YAMAGUCHI,1.85,1.85
+*****************************************
+G246,mozzart,JEF UNITED,TOKYO VERDY,2.03,1.7
+*****************************************
+G247,mozzart,MITO HOLLYHOCK,NAGOYA GE,1.96,1.75
+*****************************************
+G248,mozzart,YAMAGA,TOKUSHIMA,1.8,1.9
+*****************************************
+G249,mozzart,KANAZAWA,V-VAREN NAGASAKI,1.62,2.15
+*****************************************
+G250,mozzart,OITA TRINITA,KUSATSU,1.96,1.75
+*****************************************
+G251,mozzart,KUMAMOTO,M.ZELVIA,1.69,2.05
+*****************************************
+G252,mozzart,BELLMARE S.,YOKOHAMA FC,1.69,2.05
+*****************************************
+G253,mozzart,GWANGJU SANGMU,JEJU UNITED,1.76,1.95
+*****************************************
+G254,mozzart,DYNAMO SPB,VOLGAR A.,1.6,2.2
+*****************************************
+G255,mozzart,ENISEY,ROTOR,1.85,1.85
+*****************************************
+G256,mozzart,SIBIR,TOMSK,1.55,2.3
+*****************************************
+G257,mozzart,TYUMEN,KHIMKI,1.53,2.35
+*****************************************
+G258,mozzart,BRADFORD,BRISTOL ROVERS,1.8,1.9
+*****************************************
+G259,mozzart,SHINNIK,KURSK,1.6,2.2
+*****************************************
+G260,mozzart,DUNKERQUE,LAVAL,1.55,2.3
+*****************************************
+G261,mozzart,ZAMBIA,ALGERIA,1.47,2.5
+*****************************************
+G262,mozzart,ODRA OPOLE,CHOJNICZANKA,1.85,1.85
+*****************************************
+G263,mozzart,CHICO,LEONES,1.69,2.05
+G263,pinnbet,CHICO,LEONES,1.8,1.9
+*****************************************
+G264,mozzart,CURICO UNIDO,PALESTINO,1.72,2
+G264,pinnbet,CURICO UNIDO,PALESTINO,1.65,2.1
+*****************************************
+G265,mozzart,TIJUANA,ATLANTE,2.03,1.7
+*****************************************
+G266,mozzart,GUADALAJARA,SANTOS LAGUNA,1.76,1.95
+G266,pinnbet,GUADALAJARA,SANTOS LAGUNA,1.75,2
+*****************************************
+G267,mozzart,CIMARRONES,QUERETARO,1.76,1.95
+G267,pinnbet,CIMARRONES DE SONORA,QUERETARO,1.85,1.9
+*****************************************
+G268,mozzart,CEREZO OSAKA,URAWA RD,2.29,1.55
+*****************************************
+G269,mozzart,KAWASAKI F.,TOKYO,2.03,1.7
+*****************************************
+G270,mozzart,VISSEL KOBE,GAMBA OSAKA,1.9,1.8
+*****************************************
+G271,mozzart,VEGALTA SENDAI,KASHIMA A.,2.03,1.7
+*****************************************
+G272,mozzart,AREMA,PSM,1.64,2
+*****************************************
+G273,mozzart,PS TNI,BARITO PUTERA,2.37,1.45
+*****************************************
+G274,mozzart,CHITA,IRTYSH OMSK,1.9,1.8
+*****************************************
+G275,mozzart,VANLOSE,FREMAD AMAGER,2.7,1.35
+*****************************************
+G276,mozzart,VARDE,HORSENS,3.6,1.2
+*****************************************
+G277,mozzart,NORRESUNDBY,SKIVE,2.9,1.3
+*****************************************
+G278,mozzart,RKG,FREDERICIA,2.37,1.45
+*****************************************
+G279,mozzart,SOLIN,SIBENIK,1.8,1.9
+G279,pinnbet,SOLIN,SIBENIK,1.8,1.9
+*****************************************
+G280,mozzart,KUSTOSIJA,RADNIK S.,1.96,1.75
+*****************************************
+G281,mozzart,LUCKO,NOVIGRAD,1.69,2.05
+*****************************************
+G282,mozzart,HNK GORICA,DUGOPOLJE,1.8,1.9
+*****************************************
+G283,mozzart,ARNA BJORNAR W,BODO W,2.41,1.5
+*****************************************
+G284,mozzart,ORN W,VOLERENGA W,2.03,1.7
+*****************************************
+G285,mozzart,CALAHORRA,REAL UNION,1.72,2
+*****************************************
+G286,mozzart,BUNKEFLO W,ROSENGARD W,2.5,1.4
+*****************************************
+G287,mozzart,BRONSHOJ,NAESTVED,2.06,1.6
+*****************************************
+G288,mozzart,HB KOGE,NYKOBING,1.91,1.7
+*****************************************
+G289,mozzart,AMERICA QUITO,GUALACEO,1.6,2.2
+*****************************************
+G290,mozzart,BADALONA,ELCHE,1.9,1.8
+*****************************************
+G291,mozzart,PENA,MIRANDES,1.9,1.8
+*****************************************
+G292,mozzart,DJURGARDEN W,HAMMARBY W,1.8,1.8
+*****************************************
+G293,mozzart,SUNRED BEACH,OTTERUP,2.15,1.55
+*****************************************
+G294,mozzart,THOR,KEFLAVIK,2.29,1.55
+*****************************************
+G295,mozzart,SELFOSS,FYLKIR,2.11,1.65
+*****************************************
+G296,mozzart,HAJDUK II,DINAMO Z.II,1.8,1.9
+G296,pinnbet,HAJDUK II,DINAMO Z. II,1.8,1.9
+*****************************************
+G297,mozzart,DRAGOVOLJAC,VARAŽDIN,1.8,1.9
+*****************************************
+G298,mozzart,KR REYKJAVIK W,BREIDABLIK W,3.2,1.25
+*****************************************
+G299,mozzart,GRINDAVIK W,VALUR W,2.9,1.3
+*****************************************
+G300,mozzart,IR REYKJAVIK,HK KOPAVOGUR,2.41,1.5
+G300,pinnbet,IR REYKJAVIK,KOPAVOGUR,2.2,1.6
+*****************************************
+G301,mozzart,LEIOA,SANTANDER,1.8,1.9
+*****************************************
+G302,mozzart,GIMNASTICA SEGOVIANA,PONTEVEDRA,1.85,1.85
+*****************************************
+G303,mozzart,UD LOGRONES,REAL AVILA,4,1.2
+*****************************************
+G304,mozzart,LLEIDA E.,MELILLA,1.76,1.95
+*****************************************
+G305,mozzart,OLIMPIC XATIVA,UE OLOT,1.8,1.9
+*****************************************
+G306,mozzart,PONFERRADINA,RAPIDO,1.76,1.95
+*****************************************
+G307,mozzart,MAJADAHONDA,UNION ADARVE,1.96,1.75
+*****************************************
+G308,mozzart,LORCA,VILLANOVENSE,1.72,2
+*****************************************
+G309,mozzart,HAUKAR W,FYLKIR W,2.25,1.5
+*****************************************
+G310,mozzart,GROTTA,FRAM,2.29,1.55
+*****************************************
+G311,mozzart,CARTAGENA,UCAM MURCIA,1.76,1.95
+*****************************************
+G312,mozzart,LDU PORTOVIEJO,CD SANTA RITA,1.53,2.35
+*****************************************
+G313,mozzart,OLMEDO,CD COLON,1.6,2.2
+*****************************************
+G314,mozzart,AUDAX ITALIANO,UNIVERSITAD CHILE,2.03,1.7
+*****************************************
+G315,mozzart,LONDRINA,FLUMINENSE,1.6,2.2
+*****************************************
+G316,mozzart,INTERNACIONAL,ATLETICO MINEIRO,1.9,1.8
+*****************************************
+G317,mozzart,DEPORTIVO CAPIATA,CERRO PORTENO,1.85,1.85
+G317,pinnbet,DEPORTIVO CAPIATA,CERRO PORTENO,1.85,1.85
+*****************************************
+G318,mozzart,UNION SAN FELIPE,UNION TEMUCO,1.62,2.15
+*****************************************
+G319,mozzart,IBERIA,COLO COLO,2.55,1.45
+*****************************************
+G320,mozzart,SANTA FE,INDEPENDIENTE MEDELIN,1.62,2.15
+*****************************************
+G321,mozzart,ATLAS,AMERICA,1.76,1.95
+G321,pinnbet,ATLAS,CLUB AMERICA,1.7,2.05
+*****************************************
+G322,mozzart,OAXACA,LEON,2.03,1.7
+*****************************************
+G323,mozzart,MINEROS Z.,MORELIA,2.11,1.65
+*****************************************
+G324,mozzart,ATLETICO NACIONAL,PATRIOTAS,2.03,1.7
+*****************************************
+G325,mozzart,FLAMENGO,PARANA,1.9,1.8
+*****************************************
+G326,mozzart,CRUZEIRO,GREMIO,1.96,1.75
+*****************************************
+G327,mozzart,TOLUCA,U.GUADALAJARA,2.03,1.7
+*****************************************
+G328,mozzart,SANTOS G.,GUADALUPE FC,2.19,1.6
+G328,pinnbet,SANTOS DG,GUADALUPE FC,2.1,1.65
+*****************************************
+G329,mozzart,CARMELITA,ALAJUELENSE,1.9,1.8
+*****************************************
+G330,mozzart,CRUZ AZUL,TIGRES UANL,1.62,2.15
+*****************************************
+G331,mozzart,JAPAN,AUSTRALIA,1.72,2
+G331,pinnbet,JAPAN,AUSTRALIA,1.8,1.95
+*****************************************
+G332,mozzart,SEMEN PADANG,PUSAMANIA BORNEO,1.75,1.85
+*****************************************
+G333,mozzart,SYRIA,QATAR,1.6,2.2
+*****************************************
+G334,mozzart,CHINA,UZBEKISTAN,1.55,2.3
+*****************************************
+G335,mozzart,S.KOREA,IRAN,1.53,2.35
+G335,pinnbet,SOUTH KOREA,IRAN,1.55,2.35
+*****************************************
+G336,mozzart,THAILAND,IRAQ,1.76,1.95
+G336,pinnbet,THAILAND,IRAQ,1.8,1.95
+*****************************************
+G337,mozzart,UGANDA,EGYPT,1.47,2.5
+G337,pinnbet,UGANDA,EGYPT,1.5,2.5
+*****************************************
+G338,mozzart,FAROE ISLANDS M21,DENMARK M21,2.55,1.45
+*****************************************
+G339,mozzart,WIGRY SUWLAKI,RAKOW,1.8,1.9
+*****************************************
+G340,mozzart,RUSSIA M21,ARMENIA M21,1.96,1.75
+G340,pinnbet,RUSSIA U21,ARMENIA U21,2,1.75
+*****************************************
+G341,mozzart,ISRAEL M21,AZERBAIJAN M21,1.9,1.8
+*****************************************
+G342,mozzart,MOLDOVA M21,CROATIA M21,1.76,1.95
+*****************************************
+G343,mozzart,GUINEA,LIBYA,1.47,2.5
+*****************************************
+G344,mozzart,KOPPARBERGS W,LINKOPINGS W,2.25,1.5
+*****************************************
+G345,mozzart,N.IRELAND M21,ALBANIA M21,1.53,2.35
+G345,pinnbet,N. IRELAND U21,ALBANIA U21,1.65,2.15
+*****************************************
+G346,mozzart,BULGARIA,SWEDEN,1.55,2.3
+G346,pinnbet,BULGARIA,SWEDEN,1.6,2.3
+*****************************************
+G347,mozzart,FRANCE,NETHERLANDS,1.8,1.9
+G347,pinnbet,FRANCE,NETHERLANDS,1.8,2
+*****************************************
+G348,mozzart,LUXEMBOURG,BELARUS,1.53,2.35
+*****************************************
+G349,mozzart,HUNGARY,LATVIA,1.76,1.95
+G349,pinnbet,HUNGARY,LATVIA,1.8,2
+*****************************************
+G350,mozzart,PORTUGAL,FAROE I.,4.7,1.15
+*****************************************
+G351,mozzart,SWITZERLAND,ANDORRA,5.8,1.1
+*****************************************
+G352,pinnbet,MANCHESTER UTD,BASEL,2.35,1.6
+*****************************************
+G353,pinnbet,BARCELONA,ATL. MADRID,1.6,2.35
+*****************************************
+G354,pinnbet,BENFICA,ANDERLECHT,3.8,1.25
+*****************************************
+G355,pinnbet,CHELSEA,PSG,2.45,1.55
+*****************************************
+G356,pinnbet,OLYMPIAKOS,BASEL,2.35,1.6
+*****************************************
+G357,pinnbet,FEYENOORD,BESIKTAS,1.8,2.05
+*****************************************
+G358,pinnbet,MARIBOR,SEVILLA,2.35,1.6
+*****************************************
+G359,pinnbet,SHAKHTAR,MONACO,2.05,1.8
+*****************************************
+G360,pinnbet,MARSEILLE,KONYASPOR,2.1,1.75
+*****************************************
+G361,pinnbet,STEAUA B.,PLZEN,1.75,2.1
+*****************************************
+G362,pinnbet,VILLARREAL,MACCABI TEL AVIV,1.6,2.35
+*****************************************
+G363,pinnbet,ATALANTA,PARTIZAN,1.9,1.9
+*****************************************
+G364,pinnbet,RIJEKA,SHERIFF TIRASPOL,1.6,2.35
+*****************************************
+G365,pinnbet,BASAKSEHIR,MILAN,2.05,1.8
+*****************************************
+G366,pinnbet,FC COPENHAGEN,SKENDERBEU,2.6,1.5
+*****************************************
+G367,pinnbet,APOLLON LIM.,BRAGA,2.1,1.75
+*****************************************
+G368,pinnbet,ZORYA,BATE BORISOV,1.6,2.35
+*****************************************
+G369,pinnbet,HERTHA,SALZBURG,1.8,2
+*****************************************
+G370,pinnbet,VARDAR,KONYASPOR,2.1,1.75
+*****************************************
+G371,pinnbet,ZULTE-WAREGEM,LAZIO,1.9,1.9
+*****************************************
+G372,pinnbet,H. BEER SHEVA,KOLN,2.25,1.65
+*****************************************
+G373,pinnbet,REAL SOCIEDAD,PLZEN,1.75,2.1
+*****************************************
+G374,pinnbet,MANCHESTER CITY,LIVERPOOL,2.45,1.55
+*****************************************
+G375,pinnbet,EVERTON,TOTTENHAM,1.85,1.95
+*****************************************
+G376,pinnbet,ARSENAL,BOURNEMOUTH,2.9,1.4
+*****************************************
+G377,pinnbet,STOKE,MANCHESTER UTD,1.9,1.9
+*****************************************
+G378,pinnbet,SWANSEA,NEWCASTLE,1.7,2.15
+*****************************************
+G379,pinnbet,BRIGHTON,LIVERPOOL,2.45,1.55
+*****************************************
+G380,pinnbet,SOUTHAMPTON,TOTTENHAM,1.85,1.95
+*****************************************
+G381,pinnbet,LEICESTER,BOURNEMOUTH,2.9,1.4
+*****************************************
+G382,pinnbet,BURNLEY,MANCHESTER UTD,1.9,1.9
+*****************************************
+G383,pinnbet,WEST HAM,NEWCASTLE,1.7,2.15
+*****************************************
+G384,pinnbet,LEGANES,GETAFE,1.5,2.6
+*****************************************
+G385,pinnbet,VALENCIA,ATL. MADRID,1.75,2.1
+*****************************************
+G386,pinnbet,BARCELONA,ESPANYOL,2.9,1.4
+*****************************************
+G387,pinnbet,ATH. BILBAO,GIRONA,1.85,1.95
+*****************************************
+G388,pinnbet,VILLARREAL,BETIS,1.8,2
+*****************************************
+G389,pinnbet,REAL MADRID,GETAFE,1.5,2.6
+*****************************************
+G390,pinnbet,SEVILLA,ATL. MADRID,1.75,2.1
+*****************************************
+G391,pinnbet,DEP. LA CORUNA,ESPANYOL,2.9,1.4
+*****************************************
+G392,pinnbet,CELTA,GIRONA,1.85,1.95
+*****************************************
+G393,pinnbet,MALAGA,BETIS,1.8,2
+*****************************************
+G394,pinnbet,MAINZ,LEVERKUSEN,2,1.8
+*****************************************
+G395,pinnbet,FREIBURG,DORTMUND,2.25,1.65
+*****************************************
+G396,pinnbet,HOFFENHEIM,BAYERN M.,2.9,1.4
+*****************************************
+G397,pinnbet,SCHALKE 04,STUTTGART,1.95,1.85
+*****************************************
+G398,pinnbet,WOLFSBURG,RB LEIPZIG,1.9,1.9
+*****************************************
+G399,pinnbet,AUGSBURG,LEVERKUSEN,2,1.8
+*****************************************
+G400,pinnbet,BORUSSIA M.,DORTMUND,2.25,1.65
+*****************************************
+G401,pinnbet,HERTHA,BAYERN M.,2.9,1.4
+*****************************************
+G402,pinnbet,VERONA,FIORENTINA,1.9,1.9
+*****************************************
+G403,pinnbet,LAZIO,MILAN,2.15,1.7
+*****************************************
+G404,pinnbet,CAGLIARI,CROTONE,1.95,1.85
+*****************************************
+G405,pinnbet,BENEVENTO,TORINO,2.1,1.75
+*****************************************
+G406,pinnbet,SAMPDORIA,ROMA,2.35,1.6
+*****************************************
+G407,pinnbet,BOLOGNA,FIORENTINA,1.9,1.9
+*****************************************
+G408,pinnbet,UDINESE,MILAN,2.15,1.7
+*****************************************
+G409,pinnbet,JUVENTUS,CROTONE,1.95,1.85
+*****************************************
+G410,pinnbet,INTER,TORINO,2.1,1.75
+*****************************************
+G411,pinnbet,ATALANTA,ROMA,2.35,1.6
+*****************************************
+G412,pinnbet,LILLE,BORDEAUX,1.75,2.1
+*****************************************
+G413,pinnbet,NICE,MONACO,2.25,1.65
+*****************************************
+G414,pinnbet,CAEN,DIJON,1.8,2
+*****************************************
+G415,pinnbet,TROYES,TOULOUSE,1.75,2.1
+*****************************************
+G416,pinnbet,LYON,GUINGAMP,2.6,1.5
+*****************************************
+G417,pinnbet,METZ,BORDEAUX,1.75,2.1
+*****************************************
+G418,pinnbet,STRASBOURG,MONACO,2.25,1.65
+*****************************************
+G419,pinnbet,MONTPELLIER,DIJON,1.8,2
+*****************************************
+G420,pinnbet,ST. ETIENNE,TOULOUSE,1.75,2.1
+*****************************************
+G421,pinnbet,MARSEILLE,GUINGAMP,2.6,1.5
+*****************************************
+G422,pinnbet,TRINIDAD&TOBAGO,COSTA RICA,1.6,2.3
+*****************************************
+G423,pinnbet,ISRAEL,MACEDONIA,1.7,2.15
+*****************************************
+G424,pinnbet,CYPRUS,SWEDEN,1.6,2.3
+*****************************************
+G425,pinnbet,LUXEMBOURG,LATVIA,1.8,2
+*****************************************
+G426,pinnbet,DENMARK,GERMANY,2,1.8
+*****************************************
+G427,pinnbet,NORWAY,SCOTLAND,1.6,2.3
+*****************************************
+G428,pinnbet,SLOVAKIA,ARMENIA,1.9,1.9
+*****************************************
+G429,pinnbet,FINLAND,LIECHTENSTEIN,2.9,1.35
+*****************************************
+G430,pinnbet,SERBIA,IRELAND,1.6,2.3
+*****************************************
+G431,pinnbet,SPAIN,MACEDONIA,1.7,2.15
+*****************************************
+G432,pinnbet,WALES,TURKEY,1.6,2.3
+*****************************************
+G433,pinnbet,CHILE,COLOMBIA,1.95,1.85
+*****************************************
+G434,pinnbet,BRAZIL,ARGENTINA,1.9,1.9
+*****************************************
+G435,pinnbet,GUINEA,EGYPT,1.5,2.5
+*****************************************
+G436,pinnbet,NIGERIA,CONGO,1.5,2.5
+*****************************************
+G437,pinnbet,MOROCCO,SOUTH AFRICA,1.5,2.5
+*****************************************
+G438,pinnbet,ZAMBIA,D.R. CONGO,1.6,2.2
+*****************************************
+G439,pinnbet,SENEGAL,IVORY COAST,1.4,2.7
+*****************************************
+G440,pinnbet,CHINA,AUSTRALIA,1.8,1.95
+*****************************************
+G441,pinnbet,SYRIA,IRAN,1.55,2.35
+*****************************************
+G442,pinnbet,ISRAEL U21,DENMARK U21,2.7,1.4
+*****************************************
+G443,pinnbet,MOLDOVA U21,ARMENIA U21,2,1.75
+*****************************************
+G444,pinnbet,KAZAKHSTAN U21,ALBANIA U21,1.65,2.15
+*****************************************
+G445,pinnbet,GEORGIA U21,GREECE U21,1.55,2.3
+*****************************************
+G446,pinnbet,SAN FELIPE,DEPORTES TEMUCO,1.55,2.3
+*****************************************
+G447,pinnbet,O HIGGINS,S. WANDERERS,1.75,1.95
+*****************************************
+G448,pinnbet,A. ITALIANO,PALESTINO,1.65,2.1
+*****************************************
+G449,pinnbet,IBERIA,DEPORTES TEMUCO,1.55,2.3
+*****************************************
+G450,pinnbet,CARMELITA,GUADALUPE FC,2.1,1.65
+*****************************************
+G451,pinnbet,GORICA,DUGOPOLJE,1.8,1.9
+*****************************************
+G452,pinnbet,LUCKO,DUGOPOLJE,1.8,1.9
+*****************************************
+G453,pinnbet,KUSTOSIJA,SIBENIK,1.8,1.9
+*****************************************
+G454,pinnbet,DRAGOVOLJAC,DINAMO Z. II,1.8,1.9
+*****************************************
+G455,pinnbet,HAFNARFJORDUR,KR REYKJAVIK,2.2,1.6
+*****************************************
+G456,pinnbet,THOR AKUREYRI,KEFLAVIK,2.1,1.65
+*****************************************
+G457,pinnbet,SELFOSS,KEFLAVIK,2.1,1.65
+*****************************************
+G458,pinnbet,CEREZO OSAKA,URAWA,2.2,1.6
+*****************************************
+G459,pinnbet,KOBE,GAMBA OSAKA,1.9,1.85
+*****************************************
+G460,pinnbet,KAWASAKI,URAWA,2.2,1.6
+*****************************************
+G461,pinnbet,SENDAI,GAMBA OSAKA,1.9,1.85
+*****************************************
+G462,pinnbet,TOLUCA,LEONES NEGROS,1.95,1.8
+*****************************************
+G463,pinnbet,TIJUANA,SANTOS LAGUNA,1.75,2
+*****************************************
+G464,pinnbet,ZACATECAS,QUERETARO,1.85,1.9
+*****************************************
+G465,pinnbet,ALEBRIJES OAXACA,CLUB AMERICA,1.7,2.05
+*****************************************
+G466,pinnbet,CRUZ AZUL,LEONES NEGROS,1.95,1.8
+*****************************************

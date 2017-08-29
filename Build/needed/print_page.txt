@@ -1,0 +1,4 @@
+  var html = this.getHTML();
+  var f = fs.open('test.html', 'w');
+	f.write(html);
+	f.close();

@@ -1,0 +1,33 @@
+//https://gist.github.com/artjomb/4cf43d16ce50d8674fdf
+
+casper.on("remote.message", function(msg) {
+    this.echo("Console: " + msg);
+});
+
+// http://docs.casperjs.org/en/latest/events-filters.html#page-error
+casper.on("page.error", function(msg, trace) {
+    var msgStack = ['ERROR: ' + msg];
+  if (trace && trace.length) {
+    msgStack.push('TRACE:');
+    trace.forEach(function(t) {
+      msgStack.push(' -> ' + t.file + ': ' + t.line + (t.function ? ' (in function "' + t.function +'")' : ''));
+    });
+  }
+
+  console.error(msgStack.join('\n'));
+    // maybe make it a little fancier with the code from the PhantomJS equivalent
+});
+
+// http://docs.casperjs.org/en/latest/events-filters.html#resource-error
+casper.on("resource.error", function(resourceError) {
+    this.echo("ResourceError: " + JSON.stringify(resourceError, undefined, 4));
+});
+
+// http://docs.casperjs.org/en/latest/events-filters.html#page-initialized
+casper.on("page.initialized", function(page) {
+    // CasperJS doesn't provide `onResourceTimeout`, so it must be set through 
+    // the PhantomJS means. This is only possible when the page is initialized
+    page.onResourceTimeout = function(request) {
+        console.log('Response Timeout (#' + request.id + '): ' + JSON.stringify(request));
+    };
+});

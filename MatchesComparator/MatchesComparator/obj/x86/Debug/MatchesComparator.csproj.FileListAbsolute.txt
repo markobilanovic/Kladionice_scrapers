@@ -4,3 +4,9 @@ C:\Users\bilan.DESKTOP-CF0A1GD\Desktop\MatchesComparator\MatchesComparator\obj\x
 C:\Users\bilan.DESKTOP-CF0A1GD\Desktop\MatchesComparator\MatchesComparator\obj\x86\Debug\MatchesComparator.pdb
 C:\Users\bilan.DESKTOP-CF0A1GD\Desktop\MatchesComparator\MatchesComparator\obj\x86\Debug\MatchesComparator.csprojResolveAssemblyReference.cache
 C:\Users\bilan.DESKTOP-CF0A1GD\Desktop\MatchesComparator\MatchesComparator\obj\x86\Debug\MatchesComparator.csproj.CoreCompileInputs.cache
+C:\Users\bilan.DESKTOP-CF0A1GD\Desktop\Kladionice_scrapers\MatchesComparator\MatchesComparator\bin\Debug\MatchesComparator.exe
+C:\Users\bilan.DESKTOP-CF0A1GD\Desktop\Kladionice_scrapers\MatchesComparator\MatchesComparator\bin\Debug\MatchesComparator.pdb
+C:\Users\bilan.DESKTOP-CF0A1GD\Desktop\Kladionice_scrapers\MatchesComparator\MatchesComparator\obj\x86\Debug\MatchesComparator.csprojResolveAssemblyReference.cache
+C:\Users\bilan.DESKTOP-CF0A1GD\Desktop\Kladionice_scrapers\MatchesComparator\MatchesComparator\obj\x86\Debug\MatchesComparator.csproj.CoreCompileInputs.cache
+C:\Users\bilan.DESKTOP-CF0A1GD\Desktop\Kladionice_scrapers\MatchesComparator\MatchesComparator\obj\x86\Debug\MatchesComparator.exe
+C:\Users\bilan.DESKTOP-CF0A1GD\Desktop\Kladionice_scrapers\MatchesComparator\MatchesComparator\obj\x86\Debug\MatchesComparator.pdb

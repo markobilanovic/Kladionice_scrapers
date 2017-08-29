@@ -93,6 +93,9 @@ namespace MatchesComparator
 			return d[n, m];
 		}
 
+		//TODO: dodati umanjivanje ocene u slucajevima:
+		//ALT.	ATLETICO	->	ocena -= 5
+		//UTD	UNITED		->	ocena -= 3
 		public static double LevenshteinDistanceSoft(string nameFromDb, string nameFromFile)
 		{
 			double cenaZamene = 1;
