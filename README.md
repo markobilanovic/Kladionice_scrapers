@@ -2,8 +2,8 @@
 
 ## DONE:
 ```
-[https://www.mozzartbet.com]
-[https://www.maxbet.rs/bet/#/home/leaguesWithMatches]
+[https://www.mozzartbet.com]: https://www.mozzartbet.com
+[https://www.maxbet.rs/bet/#/home/leaguesWithMatches]: https://www.maxbet.rs/bet/#/home/leaguesWithMatches
 [http://www.pinnbet.com]
 ```
 
