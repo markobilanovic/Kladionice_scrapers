@@ -16,7 +16,7 @@ https://www.soccerbet.rs/#kladjenje
 
 ## NOPE:
 ```
-https://www.premier-kladionica.com/ponuda (nema 0-2)
+<a>https://www.premier-kladionica.com/ponuda (nema 0-2)</a>
 https://www.millenniumbet.rs  (nema 0-2)
 https://online.kladioniceolimp.com/?nologin=1&_ga=2.213724624.512395247.1496941765-1057065446.1496941765#anch5 (nema novi sad)
 ```
